@@ -18,11 +18,12 @@ I worked on the logic to disable the save button until all items were selected a
 
 ## Tech Stack and Processes
 
-This project was built with Javascript, HTML5 and CSS3. We used 4 different APIs to gather data and then used our own API to save the data to a database. This project was also focused on using a Scrum framework for agile development. For this sprint we did daily Scrum Standups, with sprint reviews and a retrospective at the end of the sprint.
+This project was built with Javascript, HTML5 and CSS3. We used Git and Github for version control. We used 4 different APIs to gather data and then used our own API to save the data to a database. This project was also focused on using a Scrum framework for agile development. For this sprint we did daily Scrum Standups, with sprint reviews and a retrospective at the end of the sprint.
 
 ## To use: 
 You will need API keys for the nps and openweather apis . These will be saved in a Settings.js file that can be copied from Settings.js.example with your api keys inserted into the double quotes.
-You will need to serve up the page and also from the api folder run:  
+You will need to serve up the page from the main folder. 
+From the api folder run:  
 ```json-server -p 8088 -w db.json```
 
 ## Feature List
