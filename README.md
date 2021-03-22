@@ -21,7 +21,7 @@ This project was built with Javascript, HTML5 and CSS3. We used 4 different APIs
 
 ## To use: You will need API keys for the nps and openweather apis . These will be saved in a Settings.js file that can be copied from Settings.js.example with your api keys inserted into the double quotes.
 You will need to serve up the page and also from the api folder run:  
-    json-server -p 8088 -w db.json
+```json-server -p 8088 -w db.json```
 
 ## Feature List
 
@@ -45,20 +45,7 @@ You will need to serve up the page and also from the api folder run:
 
 ## API Keys
 
-All API keys should be added to `Settings.js`. Once again, **_DO NOT MODIFY Settings.js.example!_**
-
-## Accessing the API keys
-
-In any module where you need your API keys,
-
-```js
-import { settings } from "./Settings.js"
-
-// Since settings is an object, you can use dot notation or square bracket notation to access the properties.
-settings.npsKey
-settings["weatherKey"]
-```
-
+All API keys should be added to `Settings.js`. 
 
 ## National Park Service API
 
@@ -81,28 +68,6 @@ http://holidayroad.nss.team/bizarreries
 
 http://holidayroad.nss.team/eateries
 
-
-## Tips For A Good Usable Website
-1. Use acceptable conventions
-   * Logo positioned at top left
-   * Navigation across the top or down the left side
-   * Copyright in the footer.
-2. Visual hierarchy
-   * Most important information is the most prominent
-3. Break pages up into defined sections
-   * Logically related content should be related visually
-4. That which is clickable should be obviously clickable.
-5. Eliminate distractions
-   * Use only two typefaces
-   * Limit color pallet (3 colors with black and white)
-   * Use a grid
-6. Support scanning (users don't read)
-   * Use plenty of headings
-   * Short paragraphs
-   * Bulleted lists
-   * Left aligned text
-7. Strive for consistency.
-8. Use semantic and valid HTML: validator at [https://validator.w3.org/](https://validator.w3.org/).
 
 ## Persona
 
