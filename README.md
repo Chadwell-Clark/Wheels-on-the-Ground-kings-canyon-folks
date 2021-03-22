@@ -1,3 +1,4 @@
+
 # Wheels on the Ground - A Demo Project for Nashville Software School Cohort 47
 
 ## King's Canyon Folks Group Members
@@ -19,7 +20,8 @@ I worked on the logic to disable the save button until all items were selected a
 
 This project was built with Javascript, HTML5 and CSS3. We used 4 different APIs to gather data and then used our own API to save the data to a database. This project was also focused on using a Scrum framework for agile development. For this sprint we did daily Scrum Standups, with sprint reviews and a retrospective at the end of the sprint.
 
-## To use: You will need API keys for the nps and openweather apis . These will be saved in a Settings.js file that can be copied from Settings.js.example with your api keys inserted into the double quotes.
+## To use: 
+You will need API keys for the nps and openweather apis . These will be saved in a Settings.js file that can be copied from Settings.js.example with your api keys inserted into the double quotes.
 You will need to serve up the page and also from the api folder run:  
 ```json-server -p 8088 -w db.json```
 
@@ -74,4 +76,8 @@ http://holidayroad.nss.team/eateries
 ## Charles
 
 ![](./personas/persona-charles.png)
+
+![Screen Shot 2021-03-22 at 12 55 24 PM](https://user-images.githubusercontent.com/70447532/112035856-f9fee780-8b0d-11eb-843e-3fd0e9110441.png)
+![Screen Shot 2021-03-22 at 1 01 05 PM](https://user-images.githubusercontent.com/70447532/112036514-b6f14400-8b0e-11eb-89ee-3a42571ecbdc.png)
+
 
